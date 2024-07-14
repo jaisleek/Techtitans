@@ -1,0 +1,61 @@
+body{
+    /*margin: 12px 0 30px 50px; */
+    /*margin: 12px 0 30px 50px; */
+    margin: 0;
+    background-image: url("../CSS/shoot.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 15px 0 0 100px;
+}
+
+.title {
+    margin: -27px 0 0 140px;
+    color: orange;
+    font-weight: 700;
+}
+
+.lists {
+    display: flex;
+    float: right;
+    list-style: none;
+    margin: -29px 44px 0 0;
+}
+
+.lists li{
+    padding: 10px;
+    color: orange;
+}
+
+.lists li:hover{
+    padding: 10px;
+    color: green;
+}
+
+#desc {
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: orange;
+    border: none;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 30px 0 0 35rem;
+}
+
+button:hover{
+    color: aqua;
+    background-color: rgba(0, 225, 255, 0);
+}
